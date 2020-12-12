@@ -1,0 +1,74 @@
+﻿@model ElasticSearchMVC.Models.ProductModel
+@{
+    ViewData["Title"] = "Create";
+}
+<div style="background: #28609008;border:1px solid #f2f2f2;padding-top:15px" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label asp-for="Id" class="control-label"></label>
+                                <input asp-for="Id" placeholder="id" class="form-control" required />
+                                <span asp-validation-for="Id" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-8">
+                                <label asp-for="ProductCode" class="control-label"></label>
+                                <input asp-for="ProductCode" placeholder="product code" class="form-control" required />
+                                <span asp-validation-for="ProductCode" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <br />
+                                <label asp-for="ProductName" class="control-label"></label>
+                                <input asp-for="ProductName" placeholder="product name" class="form-control" required />
+                                <span asp-validation-for="ProductName" class="text-danger"></span>
+                                <br />
+                                <label asp-for="Image" class="control-label"></label>
+                                <input asp-for="Image" placeholder="image url" class="form-control" required />
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label asp-for="Price" class="control-label"></label>
+                                <input asp-for="Price" placeholder="price" class="form-control" required />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="Quantity" class="control-label"></label>
+                                <input asp-for="Quantity" placeholder="quantity" class="form-control" required />
+                                <span asp-validation-for="Quantity" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="<< Back" asp-action="Index" class="btn-sm btn-primary" />
+                        <input type="submit" value="Create" class="btn-sm btn-success" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <textarea cols="20" asp-for="Description" placeholder="product description write here.." class="form-control" style="resize: none;" rows="5"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                        <br />
+                        <label asp-for="Category" class="control-label"></label>
+                        <input asp-for="Category" placeholder="category" class="form-control" required />
+                        <span asp-validation-for="Category" class="text-danger"></span>
+                        <br />
+                        <label asp-for="ProductionDate" class="control-label"></label>
+                        <input asp-for="ProductionDate" class="form-control" required />
+                        <span asp-validation-for="ProductionDate" class="text-danger"></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

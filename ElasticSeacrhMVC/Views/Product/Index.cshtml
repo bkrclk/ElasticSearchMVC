@@ -1,0 +1,74 @@
+﻿@model List<ProductModel>
+<div class="container">
+    <div style="background:#f2f2f2;margin-top:15px;padding-top:10px" class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <a class="btn btn-xs btn-success" asp-area="" asp-controller="Product" asp-action="Create">Add Product and Create Index</a>
+                <a class="btn btn-xs btn-warning" asp-area="" asp-controller="Product" asp-action="LogIndex">Add Logs and Create Index </a>
+            </div>
+        </div>
+        <div class="col-md-6 text-right">
+            <div class="form-group">
+                <form asp-action="Search" asp-controller="Product">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" name="searchText">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <div class="row">
+
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                            <div class="row">
+                                <div class="col-xs-2 col-md-2 text-center">
+                                    <img src="@item.Image" alt="bootsnipp"
+                                         class="img-rounded img-responsive" />
+                                </div>
+                                <div class="col-xs-10 col-md-10 section-box">
+                                    <h4>
+                                        @item.Id | @item.ProductName
+                                    </h4>
+                                    <p>
+                                        @item.Description
+                                    </p>
+                                    <hr />
+                                    <div class="row rating-desc">
+                                        <div style="font-size:18px" class="col-md-12">
+                                            <div class="col-md-2">
+                                                <span class="glyphicon glyphicon-triangle-right"></span> Price: <strong>@item.Price</strong><span class="separator"></span>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <span class="glyphicon glyphicon-stats"></span> Quantity: <strong> @item.Quantity</strong>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <form asp-action="DeleteOnIndex" asp-controller="Product" asp-route-id="@item.Id">
+                                                    <button class="btn btn-xs btn-danger" type="submit">Delete product on Index</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

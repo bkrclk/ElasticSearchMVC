@@ -1,0 +1,101 @@
+[
+  {
+    "Id": 1,
+    "ProductCode": "IA115158",
+    "ProductName": "Intel LGA 1151 ATX Seri ATA",
+    "Description": "Installing a motherboard is a complex process. This page provides general steps and guidelines for how to install a motherboard. Please refer to the manual and configuration guide that is included with the motherboard for specific details on installation and configuration steps.",
+    "Price": "50",
+    "Quantity": 99,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-02T13:13:34.441Z",
+    "Image": "https://e7.pngegg.com/pngimages/944/48/png-clipart-intel-motherboard-lga-1151-atx-serial-ata-power-socket-electronics-intel.png"
+  },
+  {
+    "Id": 2,
+    "ProductCode": "CVLPDDR358",
+    "ProductName": "Corsair Vengeance Lp Ddr3 Clipart",
+    "Description": "RAM is an essential component of computers, smartphones or tablets. RAM is one of the most important issues to consider when purchasing any electronic device. A problem or insufficiency in RAM negatively affects the operations to be done. Therefore, a program and file we want to use either does not open at all or works very slowly.",
+    "Price": "100",
+    "Quantity": 0,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-01T13:13:34.441Z",
+    "Image": "https://cpng.pikpng.com/pngl/s/153-1532665_memria-ram-png-corsair-vengeance-lp-ddr3-clipart.png"
+  },
+  {
+    "Id": 3,
+    "ProductCode": "AMDR927058",
+    "ProductName": "AMD Radeon R9 270 X 2GB GDDR5 SDRAM",
+    "Description": "The video card is the unit that enables the computer to display images. Graphics cards are built into the chipset on the motherboard or as PC cards using external ISA, VLB, PCI, AGP or PCI-Express buses. Today, there are two major companies producing Gpu for graphics cards.",
+    "Price": "100",
+    "Quantity": 98,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-02T13:13:34.441Z",
+    "Image": "https://w7.pngwing.com/pngs/406/185/png-transparent-graphics-cards-video-adapters-radeon-gddr5-sdram-micro-star-international-graphics-processing-unit-twin-miscellaneous-cable-electronic-device.png"
+  },
+  {
+    "Id": 4,
+    "ProductCode": "MSII160058",
+    "ProductName": "MSI Interceptor DS B1 1600DPI",
+    "Description": "The mouse is an information input device, usually held in the palm, whose movements control the movements of the cursor on the computer screen. Depending on the mouse model, it may have one or more buttons and wheels on it. The first computer mouse was made by Douglas Engelbart in 1964.",
+    "Price": "60",
+    "Quantity": 100,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-01",
+    "Image": "https://www.incehesap.com/resim/urun/202009/5f520849a661d0.94286318_qpogihemklnjf_500.jpg"
+  },
+  {
+    "Id": 5,
+    "ProductCode": "JD71258",
+    "ProductName": "James Donkey 712 Black 7.1 Surround",
+    "Description": "Sound System is the name given to an arrangement where more than one sound transmitter (speaker) works for the same sound at the same time. Often times, sounds as well as graphics are of great importance to us humans.",
+    "Price": "80",
+    "Quantity": 5,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-01",
+    "Image": "https://www.incehesap.com/resim/urun/201809/5b9784d7a6472_500.jpg"
+  },
+  {
+    "Id": 6,
+    "ProductCode": "PRX34CRV58",
+    "ProductName": "Predator X34 Curved Gaming Monitor Acer",
+    "Description": "LCD Screens are a type of monitor that was developed after CTR monitors and started to be used in laptop computers. After the success achieved in computer use, this screen type has been used in phones, calculators, digital cameras and many other products.",
+    "Price": "100",
+    "Quantity": 100,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-01T13:13:34.441Z",
+    "Image": "https://w0.pngwave.com/png/727/634/predator-z35p-acer-predator-z-computer-monitors-nvidia-g-sync-predator-z35-curved-gaming-monitor-active-matrix-liquid-crystal-display-png-clip-art.png"
+  },
+  {
+    "Id": 7,
+    "ProductCode": "SNUI343458",
+    "ProductName": "SanDisk Ultra II SSD Solid",
+    "Description": "SSDs rapidly replaced the hard disks used in the past to store data. SSD is defined as a name given to devices used to store data today.",
+    "Price": "10",
+    "Quantity": 100,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-01T13:13:34.441Z",
+    "Image": "https://e7.pngegg.com/pngimages/261/707/png-clipart-sandisk-ultra-ii-ssd-solid-state-drive-hard-drives-serial-ata-computer-computer-electronic-device.png"
+  },
+  {
+    "Id": 8,
+    "ProductCode": "KYB456758",
+    "ProductName": "Computer keyboard Gaming keypad RGB",
+    "Description": "The keypad or keyboard is the most important input element of the computer. There are keys with letters, numbers, signs and some functions. There are two types of key arrangements specific.",
+    "Price": "200",
+    "Quantity": 100,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-01T13:13:34.441Z",
+    "Image": "https://i.dlpng.com/static/png/7044698_preview.png"
+  },
+  {
+    "Id": 9,
+    "ProductCode": "RMG82558",
+    "ProductName": "Rampage RMS-G8 2+1 25W Bluetooth",
+    "Description": "Poor quality headphones can damage your ear, fall off or dent because they are made of cheap plastic.",
+    "Price": "90",
+    "Quantity": 100,
+    "Category": "PC Components",
+    "ProductionDate": "2020-01-01T13:13:34.441Z",
+    "Image": "https://www.incehesap.com/resim/urun/202001/5e2eee88ec0b25.46210387_meikpnqhlfojg_500.jpg"
+  }
+]
